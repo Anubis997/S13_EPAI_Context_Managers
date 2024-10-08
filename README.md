@@ -1,5 +1,5 @@
 # S13_EPAI_Context_Managers
-The following objectives were implemented in this assignment. Most of it can be done with any AI code tool, but they fail to understand that Named Tuples can't be initiated with spaces between column names. A simple list comprehension can fix that issue.
+The following objectives were implemented in this assignment. Most of it can be done with any AI code tool, but they fail to understand that Named Tuples can't be initiated with spaces between column names and that iter function has to be implemented even if we just use plain Context Manager. A simple list comprehension(both goal1 and goal2) and iter function(in goal 2) can fix that issue.
 
 # Context Manager Creation
 Create a context manager that produces data from each CSV file as named tuples. The field names in the named tuples should correspond to the headers in the CSV files.
